@@ -2,11 +2,11 @@
 local module = {}
 
 module.SSID = {}  
-module.SSID["kitties"] = "ph0t0npesto"
+module.SSID["WIFI_SSID"] = "WIFI_PASS"
 
-module.HOST = "10.0.0.4"  
+module.HOST = "HA_MQTT_IP"  
 module.PORT = 1883  
 module.ID = node.chipid()
 
-module.ENDPOINT = "nodemcu/crawl/"  
+module.ENDPOINT = "MQTT_ENDPOINT"  
 return module  
